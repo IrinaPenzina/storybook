@@ -53,12 +53,13 @@ header {
 }
 
 .banner {
-  height: 500px;
+  /* height: 500px; */
+  position: relative;
   background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url("images/banner.jpg") no-repeat center center fixed;
   background-size: auto;
   background-size: cover;
   background-position: center;
-  padding: 150px 0;
+  padding: 250px 0;
   text-align: left;
   color: white;
   font-size: 90px;
