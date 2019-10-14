@@ -34,3 +34,20 @@
   position: unset;
   margin-bottom: 20px;
 }
+
+@media(max-width: 768px) {
+  .top-pic{
+    margin: 0;
+    text-align: justify;
+  }
+}
+
+@media(max-width: 576px) {
+  .top-pic{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-align: justify;
+  }
+}
+
