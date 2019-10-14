@@ -42,6 +42,9 @@ label {
 
 .header {
   color: #261011;
+}
+
+.header a:hover {
   text-decoration: none;
 }
 

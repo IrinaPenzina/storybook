@@ -1,1 +1,15 @@
-.story {/* margin: auto; */padding-top: 50px;padding-left: 30%;padding-right: 30%;text-align: justify;}
+.story {padding-top: 50px;padding-left: 30%;padding-right: 30%;text-align: justify;}
+
+.header{
+  text-decoration: none;
+  color: #261011;
+}
+
+.header:hover {
+  text-decoration: none;
+  color: #261011;
+}
+
+.picture {
+  width: 300px;
+}
