@@ -15,6 +15,16 @@
   color: #261011;
 }
 
+.top-story {
+  height: 450px;
+  background: url("Ben/banner_ben.jpg") no-repeat center center;
+  background-size: auto;
+  background-size: cover;
+  background-position: center;
+  padding-top: -6px;
+  margin-top: 43px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
 
 .picture {
   width: 300px;
@@ -23,18 +33,9 @@
 #under {
   position: unset;
   margin-bottom: 20px;
+  margin-left: 0px;
 }
 
-.top-story {
-  height: 450px;
-  background: url("https://lh3.googleusercontent.com/yBUFFG547cYM6yyKVbGQdHMSuaGUcG4384qVuFTlXZ9RUdd2t6s4mVQb0rsl5gmVXFB4NxaYYVnxRWBA_EOU-XCQ4vMHs7qdgYKj477Hpa6EkGG6CBkH61FhdBbBgdjNkU5yAEMOnfpYopzfaJKYgSWGve-yadGkvh37-r029GPnIinm2VLDHB5B9AJ0WhA7W_Y_Bv0ckqc7R89b4_Ujx9ZlFn00K2P2eCltWZ1-9rgsbsmaPFNYT2AKi705Ye7Fnln5zN3yFvmaaiv4VVBUJwdTBSpOArXDsRiiUoTYC9qs_iO1GxbG-Jp7wUg13iMiG2VTdxWskoMJKLnj7CzF3ujQAzrkm5OsPYrDdSqhNbs8HEl4MMISssNaRj1okdG7R1xuzPoCEoNSc4DNS691oEcprvLfsJz87ALJtf95VSpw3-6dbsfLduqhQd3lHeG8boy-9lyI0o5ZvMgcTfH5kwnVd6U7w9Bz8PygQVdodA1JENcYEWUV9NWOWj6q0fr57RC-A-RLBR7RkXTgsDUERYEwAJpR1gVIIW88-qSbMENRLWVMqToMRh7ihp7_LSIIbb8HPKOkL76_GjX2ujGayHj4FcJJjO05XnVnylntBieDqhN3IzLa_wIrdZd-Mk-klYR_VM1xKGKmm44KrRihpdhhBhoZR14QqlEZuICnAWyyjBLMaDapVZU=w2866-h1050-no") no-repeat center center;
-  background-size: auto;
-  background-size: cover;
-  background-position: center;
-  padding-top: -6px;
-  margin-top: 43px;
-  box-shadow: 0 0 15px rgba(0,0,0,0.2);
-}
 
 @media(max-width: 768px) {
   .top-story {
