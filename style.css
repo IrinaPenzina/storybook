@@ -61,7 +61,7 @@ header {
 }
 
 .banner {
-  height: 500px;
+  height: 700px;
   position: relative;
   background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url("images/banner.jpg") no-repeat center center fixed;
   background-size: auto;
@@ -92,6 +92,12 @@ header {
 footer {
   color: white;
   background-color: #261011;
+}
+
+.credit {
+  text-align: left;
+  margin-left: 75%;
+  margin-top: 30px;
 }
 
 *,
@@ -138,10 +144,10 @@ footer {
   top:3em;
   left:0;
   right:0;
-   width: 15%;
+  width: 30%;
   display: block;
   text-align:center;
-  margin-left: 80%;
+  /*margin-left: 80%;*/
 }
 
 .social ul {
