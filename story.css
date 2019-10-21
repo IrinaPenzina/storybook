@@ -15,6 +15,14 @@
   color: #261011;
 }
 
+h5 {
+  text-align: right;
+  font-weight: lighter;
+  font-family: 'Raleway', sans-serif;
+}
+
+
+
 .top-story {
   height: 450px;
   background: url("Ben/banner_ben.jpg") no-repeat center center;
