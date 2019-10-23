@@ -32,7 +32,7 @@ a {
   }
 
     .card {
-      /* padding: 40px; */
+      margin-right: 40px;
       width: 300px;
       transition: box-shadow 0.3s;
     }
