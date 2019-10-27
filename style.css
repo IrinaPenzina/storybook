@@ -61,7 +61,7 @@ header {
   padding-bottom: 10px;
 }
 
-.banner {
+.mainbanner {
   height: 700px;
   position: relative;
   background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url("images/banner.jpg") no-repeat center center fixed;
@@ -75,6 +75,8 @@ header {
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
 }
+
+
 
 .name {
   font-size: 60px;
