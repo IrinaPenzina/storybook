@@ -67,7 +67,7 @@ header {
   background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url("images/banner.jpg") no-repeat center center fixed;
   /*background-size: auto;*/
   background-size: cover;
-  background-position: center;
+  /* background-position: center; */
   padding: 250px 0;
   text-align: left;
   color: white;
