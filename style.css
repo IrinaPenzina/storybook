@@ -68,6 +68,7 @@ header {
   background-size: auto;
   background-size: cover;
   background-position: center;
+  background-attachment:scroll;
   padding: 250px 0;
   text-align: left;
   color: white;
@@ -390,15 +391,3 @@ input:checked ~ .main-content {
   display: block;
 }
 
-@media only screen
-and (min-device-width : 375px)
-and (max-device-width : 667px)
-and (max-device-width : 812px) {
-  .mainbanner {
-    height: 700px;
-    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url("images/banner.jpg") no-repeat center center fixed;
-    background-size: cover;
-    /* background-position: center; */
-    box-shadow: 0 0 15px rgba(0,0,0,0.2);
-  }
-}
