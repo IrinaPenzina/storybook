@@ -64,10 +64,11 @@ header {
 .mainbanner {
   height: 700px;
   position: relative;
-  background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url("images/banner.jpg") no-repeat center center fixed;
+  background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url("images/banner.jpg") no-repeat center center scroll;
   background-size: auto;
   background-size: cover;
   background-position: center;
+  background-attachment:scroll;
   padding: 250px 0;
   text-align: left;
   color: white;
@@ -391,16 +392,13 @@ input:checked ~ .main-content {
 }
 
 @media only screen
-and (max-width: 568px)
-and (max-width: 667px)
-and (max-width: 812px)
-and (-webkit-device-pixel-ratio : 3) {
+and (min-width: 1200px)
+and (min-width: 992px) {
   .mainbanner {
-    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url("images/banner.jpg") no-repeat center center scroll;
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url("images/banner.jpg") no-repeat center center fixed;
     background-size: auto;
     background-size: cover;
     background-position: center;
-    background-attachment:scroll;
     padding: 250px 0;
     text-align: left;
     color: white;
