@@ -64,7 +64,7 @@ header {
 .mainbanner {
   height: 700px;
   position: relative;
-  background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url("images/banner.jpg") no-repeat center center fixed;
+  background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url("images/banner.jpg") no-repeat center center scroll;
   background-size: auto;
   background-size: cover;
   background-position: center;
