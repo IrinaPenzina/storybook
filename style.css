@@ -395,13 +395,10 @@ and (min-device-width : 375px)
 and (max-device-width : 667px)
 and (max-device-width : 812px)  {
   .mainbanner {
-    height: 500px;
-    background: no-repeat center center;
-    background-size: auto;
+    height: 700px;
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url("images/banner.jpg") no-repeat center center fixed;
     background-size: cover;
     background-position: center;
-    padding-top: -6px;
-    margin-top: 75px;
     box-shadow: 0 0 15px rgba(0,0,0,0.2);
   }
 }
