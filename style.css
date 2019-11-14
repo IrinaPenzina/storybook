@@ -64,6 +64,7 @@ header {
 }
 
 .mainbanner {
+  z-index: 1500;
   height: 700px;
   position: relative;
   background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url("images/banner.jpg") no-repeat center center scroll;
