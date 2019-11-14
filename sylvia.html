@@ -1,15 +1,17 @@
-
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Storybook</title>
+    <title>Sylvia Bouboutou</title>
     <!-- google metatags -->
-    <meta name="description" content="I have a story to tell">
+    <meta name="description" content="I have a story to tell what was told by my friend or a friend of a friend">
     <!-- facebook metatags -->
-    <meta property="og:title" content="Storybook">
-    <meta property="og:image" content="">
-    <meta property="og:description" content="I have a story to tell">
-    <meta property="og:site_name" content="Storybook"/>
+
+    <meta property="og:url" content="http://storybook.style/sylvia.html"/>
+    <meta property="og:type" content="article"/>
+    <meta property="og:title" content="Sylvia Bouboutou"/>
+    <meta property="og:description" content="People would ask me “what kind of music do you like?”, expecting to hear a handful of genres as a response, so that maybe, they can put me in a box or confirm that we belong together. My answer would always be something annoying."/>
+    <meta property="og:image" content="sylvia/stripedress mouth.jpg"/>
+
      <!-- picture on the tab -->
     <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
@@ -31,6 +33,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="cards.css">
     <link rel="stylesheet" href="story.css">
+    <link rel="stylesheet" href="share.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <link rel="stylesheet" href="zoom-D.css"/>
@@ -43,6 +46,16 @@
 
     <script src="zoom-D.js"></script>
 
+      <!-- Load Facebook SDK for JavaScript -->
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+
   </head>
   <body>
     <div class="site-wrapper">
@@ -50,15 +63,26 @@
       <div class="top-story" style="background-image: url('sylvia/greendress dreamy.jpg')"></div>
       <main>
         <div class="story">
-        <h5>Sylvia Bouboutou</h5>
-        <h5>November 10, 2019</h5>
-        <h3>Eclectic</h3>
-        <br>
-        <p>
-          People would ask me “what kind of music do you like?”, expecting to hear a handful of genres as a response, so that maybe, they can put me in a box or confirm that we belong together. My answer would always be something annoying. One word. Eclectic. I like, or rather can appreciate any type of music. That’s the real answer to that question, but actually the full story is more complex and deeper too.<br>
-          Answering that my music tastes are eclectic is my way of saying that music for me is like the original soundtrack of a movie. It’s not background, ambiant or an afterthought; it is an element that transcends, dramatizes and sublimes the unfolding action. A bit like how Quentin Tarantino (did I say I was a fan?) chooses opening or closing credit songs for his movies.<br>
-          The same way that I quite enjoy annoying (some) people with my single worded answer, I like to imagine that the AI in charge of of suggesting music for me on online platforms is equally disgruntled when I seemingly do a 180 degrees sharp turn from gansta rap to 17th century classical baroque; pulling its digital hair when realizing it once more has do to the learning all over again.<br>
-        </p>
+          <h5>Sylvia Bouboutou</h5>
+          <h5>November 10, 2019</h5>
+          <h3>Eclectic</h3>
+          <!-- <br> -->
+          <p>
+            People would ask me “what kind of music do you like?”, expecting to hear a handful of genres as a response, so that maybe, they can put me in a box or confirm that we belong together. My answer would always be something annoying. One word. Eclectic. I like, or rather can appreciate any type of music. That’s the real answer to that question, but actually the full story is more complex and deeper too.<br>
+            Answering that my music tastes are eclectic is my way of saying that music for me is like the original soundtrack of a movie. It’s not background, ambiant or an afterthought; it is an element that transcends, dramatizes and sublimes the unfolding action. A bit like how Quentin Tarantino (did I say I was a fan?) chooses opening or closing credit songs for his movies.<br>
+            The same way that I quite enjoy annoying (some) people with my single worded answer, I like to imagine that the AI in charge of of suggesting music for me on online platforms is equally disgruntled when I seemingly do a 180 degrees sharp turn from gansta rap to 17th century classical baroque; pulling its digital hair when realizing it once more has do to the learning all over again.<br>
+          </p>
+
+            <div class="wrap">
+              <div class="share-container">
+                <a id="social-share" href="http://www.facebook.com/sharer.php?u=https://storybook.style/sylvia.html" target="_blank">
+                  <i class="fab fa-facebook share"></i>
+                </a>
+                <a id="social-share" href="https://twitter.com/share?url=https://storybook.style/sylvia.html&amp;text=People would ask me “what kind of music do you like?”, expecting to hear a handful of genres as a response, so that maybe, they can put me in a box or confirm that we belong together. My answer would always be something annoying.&amp;hashtags=storybook" target="_blank">
+                  <i class="fab fa-twitter share"></i>
+                </a>
+            </div>
+            </div>
         </div>
         <!-- [LIGHTBOX CONTAINER] -->
         <div id="lb-back">
