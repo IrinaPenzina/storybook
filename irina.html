@@ -5,10 +5,14 @@
     <!-- google metatags -->
     <meta name="description" content="I have a story to tell">
     <!-- facebook metatags -->
-    <meta property="og:title" content="Storybook">
-    <meta property="og:image" content="">
-    <meta property="og:description" content="I have a story to tell">
-    <meta property="og:site_name" content="Storybook"/>
+
+    <meta property="og:url" content="http://storybook.style/irina.html">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Irina Penzina">
+    <meta property="og:description" content="I was obsessed with clothes from early childhood. I still remember one of my dreams from when I was about four. A big scary, and evil dragon tried to take the white collar – with two red cherries – from my red dress!">
+    <meta property="og:image" content="irina/train.jpg">
+    <meta property="fb:app_id" content="511634172766587">
+
      <!-- picture on the tab -->
     <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
@@ -30,6 +34,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="cards.css">
     <link rel="stylesheet" href="story.css">
+    <link rel="stylesheet" href="share.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <link rel="stylesheet" href="zoom-D.css"/>
@@ -41,7 +46,15 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 
     <script src="zoom-D.js"></script>
-
+         <!-- Load Facebook SDK for JavaScript -->
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
   </head>
   <body>
     <div class="site-wrapper">
@@ -60,6 +73,16 @@
           My obsession steered me towards learning anything and everything about fashion, or something around it. I watch lots and lots of fashion shows, I read fashion magazines, books and online sources, I see dozens of pictures and videos every day. Also, I have a place where I can share my knowledge, I teach International Fashion at MoD ‘Art institute in Shanghai.<br>
           As I found a way to express my passion, I immediately felt that I wanted more. I decided to build this website where I can share my vison of beauty and fashion. But what is a cover without content? Pictures alone cannot reflect the beauty I see in people. The stories they tell will reveal their true beauty.
         </p>
+          <div class="wrap">
+            <div class="share-container">
+              <a id="social-share" href="http://www.facebook.com/sharer.php?u=https://storybook.style/irina.html" target="_blank">
+                <i class="fab fa-facebook share"></i>
+              </a>
+              <a id="social-share" href="https://twitter.com/share?url=https://storybook.style/irina.html&amp;text=I was obsessed with clothes from early childhood. I still remember one of my dreams from when I was about four. A big scary, and evil dragon tried to take the white collar – with two red cherries – from my red dress!&amp;hashtags=storybook" target="_blank">
+                <i class="fab fa-twitter share"></i>
+              </a>
+            </div>
+          </div>
         </div>
         <!-- [LIGHTBOX CONTAINER] -->
         <div id="lb-back">
