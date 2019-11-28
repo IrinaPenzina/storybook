@@ -53,7 +53,7 @@ body {
 
 .share {
   position: relative;
-  top: 30px;
+  top: 19px;
   margin: 0 10px;
   @include .iconTransition;
 }
