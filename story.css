@@ -32,6 +32,12 @@ h5 {
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
 }
 
+#myVideo {
+  width: 100%;
+  padding-top: -6px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
 .picture {
   width: 300px;
 }
